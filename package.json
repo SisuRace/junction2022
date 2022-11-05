@@ -1,0 +1,33 @@
+{
+  "name": "circuits",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "chai": "^4.3.6",
+    "circomlib": "^2.0.3",
+    "circomlibjs": "^0.1.2",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.9.1",
+    "hardhat-abi-exporter": "^2.10.0",
+    "hardhat-circom": "^3.3.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "circom:dev": "hardhat circom --deterministic --debug --verbose",
+    "circom:prod": "hardhat circom --verbose",
+    "test": "hardhat test"
+  }
+}
