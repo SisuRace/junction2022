@@ -329,7 +329,7 @@ const Home: NextPage = () => {
             </div>
             <div className="col-span-2">
               <h1>
-                3. If your challenge score is above 200 seconds, you are be able
+                3. If your challenge score is above 200 seconds, you will be able
                 to mint SBT with zk proofs.
               </h1>
               <p className="pr-40">
